@@ -12,4 +12,6 @@ The third project of the Software Engineering program. It was created using HTML
 
 ## Deployment
 
--Figma link:https://www.figma.com/design/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project--Spots?node-id=2-60&t=UXiB5pcaHQeKn0We-0
+-Figma link: https://www.figma.com/design/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project--Spots?node-id=2-60&t=UXiB5pcaHQeKn0We-0
+
+-Github link: https://auram2691.github.io/se_project_spots/
