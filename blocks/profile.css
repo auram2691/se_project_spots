@@ -38,6 +38,23 @@
 
 .profile__add-button {
   margin-left: auto;
+  width: 157px;
+  height: 52px;
+  border-radius: 8px;
+  padding-top: 18px;
+  padding-right: 32px;
+  padding-bottom: 18px;
+  padding-left: 32px;
+  gap: 8px;
+  background-color: black;
+  color: rgba(252, 245, 229, 1);
+}
+
+.profile__edit-button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-self: flex-start;
 }
 
 @media screen and (max-width: 627px) {
