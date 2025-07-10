@@ -48,6 +48,7 @@
   gap: 8px;
   background-color: black;
   color: rgba(252, 245, 229, 1);
+  align-self: flex-end;
 }
 
 .profile__edit-button {
