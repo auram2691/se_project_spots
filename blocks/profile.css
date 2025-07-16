@@ -1,7 +1,7 @@
 .profile {
   display: flex;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
-  padding-bottom: 20px;
+  padding: 34px 0 20px;
 }
 
 .profile__avatar {
@@ -26,6 +26,7 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   max-width: 420px;
+  color: rgba(33, 33, 33, 1);
 }
 
 .profile__description {
@@ -38,7 +39,7 @@
   max-width: 420px;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-style: Medium;
+  font-style: normal;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
@@ -63,10 +64,14 @@
   cursor: pointer;
   font-family: Poppins;
   font-weight: 500;
-  font-style: Medium;
+  font-style: normal;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
+}
+
+.profile__add-button:hover {
+  opacity: 80%;
 }
 
 .profile__edit-button {
@@ -75,7 +80,7 @@
   border-radius: 90px;
   font-family: Poppins;
   font-weight: 500;
-  font-style: Medium;
+  font-style: normal;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
@@ -84,6 +89,12 @@
   display: flex;
   justify-self: flex-start;
   cursor: pointer;
+  padding: 0;
+  margin-top: auto;
+}
+
+.profile__edit-button:hover {
+  opacity: 100%;
 }
 
 @media screen and (max-width: 627px) {
@@ -99,6 +110,7 @@
     margin-right: 0;
     height: 80px;
     width: 80px;
+    margin-bottom: 12px;
   }
 
   .profile__name {
@@ -118,7 +130,7 @@
 
   .profile__add-button {
     margin: 0;
-    max-width: 100px;
+    width: 100px;
     cursor: pointer;
   }
   .profile__edit-button {
