@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 12px;
 }
 
 .modal_is-opened {
@@ -34,6 +35,13 @@
 
 .modal__title {
   margin: 0 0 32px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 .modal__form {
@@ -53,4 +61,13 @@
 
 .modal__input::placeholder {
   color: rgba(33, 33, 33, 0.3);
+}
+
+.modal__submit-btn {
+  max-width: 156px;
+}
+@media screen and (max-width: none) {
+  .modal {
+    background-color: rgba(255, 255, 255, 1);
+  }
 }
